@@ -7,6 +7,28 @@
     <title>Projeto 1</title>
 </head>
 <body>
-    
+    <article>
+        <h1>Projeto 1 - Simulador de vendas:</h1>
+        <form name="ex2" method="post" action="">
+            <label>Total: </label>
+            <input type="text" name="total" id="total">
+            <br>
+            <h3>Forma de Pagamento:</h3>
+            <input type="radio" id="avista" name="opcao" value="avista">À vista - 10% de desconto
+            <br>
+            <input type="radio" id="debito" name="opcao" value="debito">Débito - 7% de desconto
+            <br>
+            <input type="radio" id="credito" name="opcao" value="credito">Crédito - sem desconto
+            <br>
+            <button type="button" name="calcular" id="calcular">Calcular</button>
+            <br>
+            <br>
+            <label><strong>Valor a pagar:</strong></label>
+            <input type="text" name="pagar" id="pagar" readonly>
+        </form>
+    </article>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
+<h3>Desenvolvido by Lucas Cândido Luiz - Projeto 1/Técnicas de Programação - Versionamento</h3>
 </html>
